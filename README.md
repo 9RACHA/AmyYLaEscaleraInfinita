@@ -15,7 +15,7 @@ Cada Thing al ser espaneada elegira aleatoriamente entre los materiales disponib
 
 ## Captura de las Thing por parte de Amy
 Cuando el usuario pulse el boton Interaction Amy chequeara si tiene delante un objeto de la clase Shelf. De ser asi le pedira una Thing llamando a un metodo especifico para realizar esta tarea, que se deberá incluir en el comportamiento de Shelf.
-La deteccion de que tiene delante un objeto Shelf, la hará Amy lanzando un RayCast desde un punto situado  una altura de 0.4f m, 0.1f m por delante del eje vertical del personaje, en direccion forward y con un alcance de 0.5f m.
+La deteccion de que tiene delante un objeto Shelf, la hará Amy lanzando un RayCast desde un punto situado  una altura de 0.4f m, 0.1f m por delante del eje vertical del personaje, en direccion forward y con un alcance de 0.5fm.
 
 El Shelf, por su parte buscará un objeto Thing en su registro y se lo entregará a Amy como resultado de la peticion. El Shelf debera eliminar la thing que acaba de entregar del registro que tiene en su poder. El Shelf ira entregando las Thing en el orden inverso en el que fueron entregadas a el, de manera que siempre entregara la que esta mas arriba en la pila que se ve en pantalla.
 Se debera tratar el caso de que el Shelf ya no disponga de ninguna Thing y por tanto devuelva null como resultado de la peticion. Tambien se debera evitar todo este proceso en caso de que Amy ya tenga agarrada alguna Thing.
