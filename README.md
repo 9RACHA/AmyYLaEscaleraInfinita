@@ -1,5 +1,8 @@
 # AmyYLaEscaleraInfinita
 
+## OnTriggerEnter:
+Es un método que se utiliza en Unity para detectar cuando un objeto colisiona con un trigger. Un trigger es un colisionador con la propiedad "Is Trigger" habilitada, que permite que otros objetos atraviesen su área sin generar una colisión física, pero aún así se puede detectar cuando otro objeto entra en su volumen. 
+
 Realizar un videojuego llamado AmyYLaEscaleraInfinita. En el juego el personaje de Amy tiene que tomar cosas(things) de unos estantes y llevarlas por una plataforma descendente hasta un teletransportador, donde las cosas desaparecen de nuestro universo. Luego, Amy continua su camino para, descendiendo de nuevo por otra plataforma, volver al lugar de partida.
 Se suministra un proyecto base con una escena configurada en la que se encuentran los estantes en los que Amy podrá recoger cosas, las plataformas por las que deberá bajar Amy con las puertas que le dan acceso y el teletransportador. Tambien esta configurado el movimiento del personaje usando el raton y el teclado, usando para ello el componente cinemachine de Unity.
 
